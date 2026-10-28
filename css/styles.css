@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:rgb(241, 194, 223);
+    color: #1d1c1c;
+}
+
+header {
+    background-color: #eb6d93;
+    color: #292727;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+.tarjeta {
+    background-color: rgb(243, 131, 174);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #050405;
+}
+
+h2 {
+    color: #ca2f6d;
+}
+
+h3 {
+    color: #df2f8a;
+}
+
+input, select {
+    display: block;
+    padding: 10px;
+    width: 90%;
+    max-width: 300px;
+    margin-top: 10px;
+    border: 1px solid #1b1919;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e4b5c8;
+    color: rgb(90, 82, 82);
+    padding: 10px 15px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #d8bcc7;
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#contenido-favorito {
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #cf7da3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    .tarjeta {
+        padding: 15px;
+    }
+}
+

@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elis</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Elis Ester Cuesta Perez</h1>
+        <p>Bienvenidos a mi pagina web</p>
+    </header>
+
+    <main>
+        <!-- Tarjeta sobre mi -->
+        <section class="tarjeta">
+            <h2>Sobre mi</h2>
+            <h3>Mi nombre es Elis Ester Cuesta, tengo 21 años, vivo actualmente en medellin</h3>
+            <p>Soy estudiante de analisis y desarrollo de software.</p>
+            <p>Quiero empezar a estudiar una carrera profesional
+               en desarrollo de software.</p>
+        </section>
+
+        <!-- Juego para adivinar el numero -->
+        <section class="tarjeta">
+            <h2>Adivina mi numero favorito</h2>
+            <p>Adivina mi numero favorito del 10 al 20.</p>
+
+            <label for="respuesta">Selecciona o escribe un numero:</label>
+
+            <input
+                type="number"
+                id="respuesta"
+                min="10"
+                max="20"
+                step="1"
+                placeholder="Del 10 al 20"
+            >
+
+            <button id="comprobar" type="button">
+                Comprobar numero
+            </button>
+
+            <p id="resultado" aria-live="polite"></p>
+        </section>
+
+        <!-- Selector de favoritos -->
+        <section class="tarjeta">
+            <h2>Selector de favoritos</h2>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9h-9KXamq4hvnrecQUU_CbIuEMdLtroyN6CxvNAyMvQ&s=10" alt="">
+
+            <select id="selector">
+                <option value="">Selecciona una opcion</option>
+                <option value="equipo">Equipo de futbol</option>
+                <option value="pelicula">Pelicula</option>
+                <option value="fruta">Fruta</option>
+            </select>
+
+            <div id="contenido-favorito" hidden>
+                <h3 id="nombre"></h3>
+                <p id="descripcion"></p>
+
+                <img id="imagen" src="" alt="" hidden>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Creado por Ester | Mi primera pagina web</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
